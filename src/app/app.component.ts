@@ -13,7 +13,7 @@ export class AppComponent {
 
   transferir($event){
     console.log($event);
-    this.transferencia = $event ;
+    this.transferencia = $event;
 
   }
 }
