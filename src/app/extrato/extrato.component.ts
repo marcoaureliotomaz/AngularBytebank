@@ -1,6 +1,7 @@
 import { TransferenciasService } from './../services/transferencias.service';
 import { Component, Input, OnInit } from '@angular/core';
 import { Transferencia } from '../models/transferencia.model';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-extrato',
